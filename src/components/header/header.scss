@@ -30,83 +30,38 @@
         display: flex;
     }
     
-    .form-search {
-        margin-left: 20%;
-    }
-    
-    .form-search {
-        &_form {
-            margin-left: 5%;
+ 
+    @media only screen and (max-width: 360px) {
+        .header {
+            &_img {
+                width: 80px;
+                cursor: pointer;
+                outline: none;
+                position: relative;
+                margin-left: 1%;
+            }
+            &_title {
+                margin-top: 5%;
+                font-size: 18px;
+                margin-block-start: 0px;
+                margin-block-end: 0px;
+            }
+            &_h3 {
+                margin-top: 12%;
+                font-size: 15px;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                text-align: center;
+                font-family: 'Rubik', sans-serif;
+            }
         }
-    }
+        
+        .search {
+            display: flex;
+        }
+      
+      
     
-    input {
-        outline: none;
-    }
-    
-    input[type=search] {
-        font-family: inherit;
-        font-size: 100%;
-    }
-    
-    input::-webkit-search-decoration,
-    input::-webkit-search-cancel-button {
-        display: none;
-    }
-    
-    input[type=search] {
-        background: white url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-        border: solid 1px #ccc;
-        padding: 9px 10px 9px 32px;
-        width: 100px;
-        -webkit-border-radius: 10em;
-        -moz-border-radius: 10em;
-        border-radius: 10em;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
-    }
-    
-    input[type=search]:focus {
-        width: 130px;
-        background-color: #fff;
-        border-color: #66CC75;
-        -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
-        -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
-        box-shadow: 0 0 5px rgba(109, 207, 246, .5);
-    }
-    
-    input:-moz-placeholder {
-        color: #999;
-    }
-    
-    input::-webkit-input-placeholder {
-        color: #999;
-    }
-    
-    #demo-2 input[type=search] {
-        width: 305px;
-        padding-left: 20px;
-        color: transparent;
-        cursor: pointer;
-    }
-    
-    #demo-2 input[type=search]:hover {
-        background-color: #fff;
-    }
-    
-    #demo-2 input[type=search]:focus {
-        width: 450px;
-        padding-left: 62px;
-        color: #000;
-        background-color: #fff;
-        cursor: auto;
-    }
-    
-    #demo-2 input:-moz-placeholder {
-        color: transparent;
-    }
-    
-    #demo-2 input::-webkit-input-placeholder {
-        color: transparent;
-    }
+      }

@@ -26,3 +26,29 @@
         color: black;
     }
 }
+
+
+@media only screen and (max-width: 360px) {
+    .block {
+        &_list {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        &_innenlist {
+            display: flex;
+            justify-content: space-around;
+            color: seashell;
+            font-size: 20px;
+        }
+        &_span{
+            background-color: white;
+            border-radius: 8px 8px 8px 8px;
+            color: black;
+        }
+    }
+    
+    
+    
+}

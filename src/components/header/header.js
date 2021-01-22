@@ -15,17 +15,14 @@ class Header extends Component {
     <br /> для русскоязычного сообщества живущих в США
     </h3>
                     <br />
+                    <div className=" row">
+
+                   
                     <div className="search">
 
 
-                        <form className="form-search" id="demo-2">
-                            <input type="search" placeholder="Search" />
-                        </form>
-
-                        <form placeholder="поиск" className="form-search_form" id="demo-2">
-                            <input type="search" placeholder="Search" />
-                        </form>
                     </div>
+                     </div>
 
                 </header>
             </div>
